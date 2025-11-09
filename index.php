@@ -9,25 +9,30 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="title">
-            <h1>Sostenibilidad Aplicada al Sistema Productivo</h1>
-        </div>
-        <button class="home active" onclick="location.href = '../'"><img src="./webresources/home.png"></button>
-    </div>
+    <header>
+        <h1>Sostenibilidad Aplicada al Sistema Productivo</h1>
+    </header>
 
-    <div class="center-container">
+    <main>
         <button onclick="window.open('./doc/Caso Practico 1.pdf')" class="active">
             <p>UD1 Actividad 1 - Caso practico 1</p>
         </button>
         <button onclick="window.open('./doc/UD1 Actividad 2 - Limites planetarios.pdf')" class="active">
             <p>UD1 Actividad 2 - Limites Planetarios</p>
         </button>
-    </div> 
+        <button onclick="window.open('./doc/TEMA1 - Preguntas Documental.pdf')" class="active">
+            <p>UD1 Actividad 3 - Preguntas documental</p>
+        </button>
+    </main>
 
-    <div class="footer">
-        <h3>James Edward Nuñez Cuzcano</h3>
-    </div>
+    <footer>
+        <h2>James Edward Nuñez Cuzcano</h2>
+        <div>
+            <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
+                    src="./webresources/github.png"></button>
+            <button class="active" onclick="location.href='../'"><img src="./webresources/home.png"></button>
+        </div>
+    </footer>
 </body>
 
 </html>
